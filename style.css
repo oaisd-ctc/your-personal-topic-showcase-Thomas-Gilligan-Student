@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: white;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+/* a {
+    background-color: gray;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-size: 16px;
+    
+} */
+
+nav {
+    text-align: right;
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    height: 20px;
+    padding-left: 0;
+}
+
+nav a {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+    gap: 5px;
+}
+
+/* nav {
+    float: right;
+    gap:5px;
+    display: inline-block;
+} */
