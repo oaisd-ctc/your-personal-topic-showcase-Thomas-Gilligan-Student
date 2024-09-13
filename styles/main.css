@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #a0bff0;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.nav {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+a.nav:hover {
+    background-color: #92b6f0;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+header {
+    background-color: #b2cbf2;
+    height: 200px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 25px;
+    color: white;
+}
+
