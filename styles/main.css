@@ -1,5 +1,5 @@
 body {
-    background-color: cornflowerblue;
+    background-color: white;
     font-family: Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -27,10 +27,15 @@ nav > a:hover {
 
 header {
     background-color: #b2cbf2;
-    height: 142px;
+    height: 130px;
     border-radius: 0 0 15px 15px;
     text-align: center;
     width: 100%;
+}
+
+header > p {
+    color: white;
+    font-style: italic;
 }
 
 header > h1 {
@@ -39,18 +44,8 @@ header > h1 {
 }
 
 img {
-    border: 2px black solid;
-    width: 30%;
-    float: left;
-}
-
-div {
-    background-color: #eeeeff;
-    border-radius: 15px;
-    width: 100%;
-    position: relative;
-    margin: 1vw;
-    height: 75vh;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 details {
@@ -60,26 +55,47 @@ details {
     padding: 10px;
 }
 
-figure {
-    width: 40%;
+html, body {
+    overflow: hidden;
 }
 
-figure > figcaption {
+#flex-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.flex-item {
+    flex: 50%;
+    padding: 10px;
     text-align: center;
-    background-color: #ddddff;
-    font-size: 1.2em;
-    width: 100%;
-    font-style: italic;
 }
 
-figure > img {
-    width: 100%;
-}
-
-div > a {
+.flex-item > a {
     text-decoration: none;
 }
 
-html, body {
-    overflow: hidden;
+.flex-item > a > img{
+    width: 75%;
+}
+
+h2 {
+    text-align: center;
+    flex: 100%;
+}
+
+#recipe-tile {
+    display: flex;
+}
+
+img.recipe-item {
+    flex: 35%;
+}
+
+div.recipe-item {
+    flex: 65%;
+}
+
+.recipe-item {
+    margin: 10px;
 }
